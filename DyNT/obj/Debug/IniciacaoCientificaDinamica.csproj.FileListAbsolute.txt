@@ -1,0 +1,7 @@
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\obj\Debug\IniciacaoCientificaDinamica.csprojResolveAssemblyReference.cache
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\obj\Debug\IniciacaoCientificaDinamica.csproj.CoreCompileInputs.cache
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\bin\Debug\IniciacaoCientificaDinamica.exe.config
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\bin\Debug\IniciacaoCientificaDinamica.exe
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\bin\Debug\IniciacaoCientificaDinamica.pdb
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\obj\Debug\IniciacaoCientificaDinamica.exe
+P:\Projetos\C#\IniciacaoCientificaDinamica\IniciacaoCientificaDinamica\obj\Debug\IniciacaoCientificaDinamica.pdb
