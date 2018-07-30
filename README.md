@@ -35,3 +35,6 @@ Atualmente o DyNT possui apenas a versão em C#, sendo código aberto e totalmen
 
 Para exemplos de implementação consulte a nossa documentação através do link:
 https://zarcky.developerhub.io/v1.0/dynt/dynt---dynarratreeve
+
+## Licença
+A lincença utilizada no DyNT é a GNU GPLv3
