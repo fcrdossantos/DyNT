@@ -15,8 +15,11 @@ namespace IniciacaoCientificaDinamica
     {
         static void Main(string[] args)
         {
-            
+            long memoriaInicial = GC.GetTotalMemory(false);
 
+            DateTime tempoInicial = DateTime.Now;
+         
+            // Inicio da narrativa
             Valoracao profundidade1 = new Valoracao(new Profundidade(), 1);
             Valoracao profundidade1_2 = new Valoracao(new Profundidade(), 12);
             Valoracao profundidade2 = new Valoracao(new Profundidade(), 2);
@@ -94,7 +97,9 @@ namespace IniciacaoCientificaDinamica
 
             ArvoreDinamica ad = new ArvoreDinamica(null, todosNosPossiveis);
             ad.noAtual = raiz;
-
+            // Final da narrativa
+            DateTime tempoFinal = DateTime.Now;
+            double tempoUsado = (tempoFinal - tempoInicial).TotalMilliseconds;
 
             while (!ad.noAtual.final)
             {
@@ -112,8 +117,29 @@ namespace IniciacaoCientificaDinamica
 
             Console.WriteLine("Fim de jogo!");
 
-
+            long memoriaFinal = GC.GetTotalMemory(false);
+            long memoriaUsada = memoriaFinal - memoriaInicial;
             Console.ReadKey();
+
+            // Benchmarks:
+
+            // Tempo:
+            // Diferença em milisegundos através dos DateTimes "tempoInicial" e "tempoFinal"
+            // A diferença é calculada em: double tempoUsado = (tempoFinal - tempoInicial).TotalMilliseconds;
+
+
+            // Memória:
+            // Pegamos a quantidade da memória através do código "GC.GetTotalMemory(false);" no inicio e fim da vida do código.
+            // Por fim, é feito o calculo da diferença em: long memoriaUsada = memoriaFinal - memoriaInicial;
+
+
+            // Numero de linhas para narrativa:
+            // Contagem de linhas entre o inicio e fim da narrativa (estão demarcados no código) removendo comentários e linhas vazias através do programa Notepad++
+            // Para achar o inicio e fim da narrativa procurar por: "// Inicio da narrativa" e "// Final da narrativa".
+
+            // Contagem de dados e repetições:
+            // Os dados foram contados manualmente durante a construção da árvore neste código (contagem de objetos)
+            // A repetição foi calculada por número de dados que contenham o mesmo valor (nome) do que outros 
 
         }
 
